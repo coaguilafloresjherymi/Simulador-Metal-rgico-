@@ -3,21 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://coagulaflorezherylmi.github.io/Simulador-Metal-rgico/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "...",
     "preview": "vite preview"
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "@google/genai": "^1.31.0",
     "recharts": "^3.5.1"
-  }
+  },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
